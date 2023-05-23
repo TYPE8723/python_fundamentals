@@ -15,3 +15,7 @@ print(var[::-1])
 #reverse string
 var = "ABfFD"
 print(var[::-2])#In other words, the [::-2] syntax specifies a slice that includes all characters in the string (:), but with a step size of -2 (-2) which means that it will skip every second character and move backwards (-).
+
+#last 10 characters in a string
+l = "7895462130"
+print(l[-10:])
