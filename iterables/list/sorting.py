@@ -15,3 +15,6 @@ l=[5,3,0,3,1,2,]
 #sorted(iterable, key=key, reverse=reverse)
 l.sort(reverse=False)#shoudnt be saved to a new variable
 print(l)
+# 
+# USE OF KEY
+# The key parameter in the sorted() function is used to specify a function that will be called on each element of the iterable being sorted. The key function dosent manipulate the result it just perform the function and return the resut the sort function would then show the sorted version of that particuar function operation

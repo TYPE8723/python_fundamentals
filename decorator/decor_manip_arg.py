@@ -9,6 +9,7 @@ def kwargss(func):
 @kwargss
 def fun1(args,**kwargs):
     print("from fun :",kwargs)
+    print("args",args)
     return ""
 
 fun1(["HELLO ALEN","sd"],x=1,y=2,name="ALEN")
